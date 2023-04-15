@@ -13,6 +13,7 @@ Check it here https://khalid-212.github.io/Cappy/
 **Resources used**
 
 > Color palette : https://coolors.co/palette/dad7cd-a3b18a-588157-3a5a40-344e41
+> 
 > Quick Text to test : https://www.lipsum.com/feed/html
 
 
