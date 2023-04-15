@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" type="image/png" href="favicon.png"/>
+    <meta charset="UTF-8">
+    <title>Cappy</title>
+  </head>
+  <body>
+
+    <div class="wrapper">
+    <div class="logo">
+        <span class="text">Cappy</span>
+        <span>Read 10X</span>
+    </div>
+    <div class="inspiration">
+        <p>inspired by 👉</p>
+        <a target="_blank" href="https://twitter.com/forestvanslyke/status/1629779908359761923">
+            <img class="image" src="./image.png"/>
+        </a>
+    </div>
+    <form class="form">
+      <label for="paragraph">Enter a paragraph:</label><br>
+      <textarea id="paragraph" name="paragraph" rows="10" cols="50"></textarea><br>
+      <a class="button_link" href="#result">
+          <input type="button" class="button" value="Convert" onclick="convert()">
+      </a>
+    </form>
+</div>
+    <div id="result"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
